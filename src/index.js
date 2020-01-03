@@ -8,12 +8,16 @@ import MyComponent from './Components/Lesson/Click';
 import Counter from './Components/Lesson/Counter';
 import Value from './Components/Lesson/EValue';
 import * as serviceWorker from './serviceWorker';
+import Controller from './Components/Lesson/UPar';
+import Colorful from './Components/Lesson/Colorful';
 
 ReactDOM.render(<Home />, document.getElementById('root'));
 ReactDOM.render(<ShoppingCart />, document.getElementById('lesson1'));
 ReactDOM.render(<MyComponent />, document.getElementById('lesson2'));
 ReactDOM.render(<Counter />, document.getElementById('lesson3'));
 ReactDOM.render(<Value />, document.getElementById('lesson4'));
+ReactDOM.render(<Controller />, document.getElementById('lesson5'));
+ReactDOM.render(<Colorful />, document.getElementById('lesson6'));
 
 
 
