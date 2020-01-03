@@ -10,6 +10,8 @@ import Value from './Components/Lesson/EValue';
 import * as serviceWorker from './serviceWorker';
 import Controller from './Components/Lesson/UPar';
 import Colorful from './Components/Lesson/Colorful';
+import MagicEightBall from './Components/Lesson/Magic';
+import Toggle from './Components/Lesson/Toggle';
 
 ReactDOM.render(<Home />, document.getElementById('root'));
 ReactDOM.render(<ShoppingCart />, document.getElementById('lesson1'));
@@ -18,8 +20,8 @@ ReactDOM.render(<Counter />, document.getElementById('lesson3'));
 ReactDOM.render(<Value />, document.getElementById('lesson4'));
 ReactDOM.render(<Controller />, document.getElementById('lesson5'));
 ReactDOM.render(<Colorful />, document.getElementById('lesson6'));
-
-
+ReactDOM.render(<MagicEightBall />, document.getElementById('lesson7'));
+ReactDOM.render(<Toggle />, document.getElementById('lesson8'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
