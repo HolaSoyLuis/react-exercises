@@ -12,6 +12,9 @@ import Controller from './Components/Lesson/UPar';
 import Colorful from './Components/Lesson/Colorful';
 import MagicEightBall from './Components/Lesson/Magic';
 import Toggle from './Components/Lesson/Toggle';
+import MyToDoList from './Components/Lesson/List';
+import Frameworks from './Components/Lesson/Map';
+import Online from './Components/Lesson/Online';
 
 ReactDOM.render(<Home />, document.getElementById('root'));
 ReactDOM.render(<ShoppingCart />, document.getElementById('lesson1'));
@@ -22,6 +25,9 @@ ReactDOM.render(<Controller />, document.getElementById('lesson5'));
 ReactDOM.render(<Colorful />, document.getElementById('lesson6'));
 ReactDOM.render(<MagicEightBall />, document.getElementById('lesson7'));
 ReactDOM.render(<Toggle />, document.getElementById('lesson8'));
+ReactDOM.render(<MyToDoList />, document.getElementById('lesson11'));
+ReactDOM.render(<Frameworks />, document.getElementById('lesson12'));
+ReactDOM.render(<Online />, document.getElementById('lesson13'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
