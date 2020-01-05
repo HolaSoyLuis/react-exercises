@@ -1,0 +1,23 @@
+for (i = 0; i < array.length; i++) {
+  console.log(array[i]);
+}
+
+toprint = array.map((item) => {
+  console.log(item);
+});
+
+const renderFrameworks = frontEndFrameworks.map(function(item) {
+  return <li key={item + 1}>{item}</li>;
+});
+
+const renderFrameworks = frontEndFrameworks.map((item) =>
+    <li key={item+1}>{item}</li>
+);
+
+los arrays tienen un metodo llamado array.map()
+este metodo recibe como parametro una funcion, la cual dentro debe pasarsele
+un parametro, en este caso el parametro que se pase /indiferente del nombre/
+sera cada uno de los items del array, uno a uno
+
+la razon por la que los ultimos dos metodos funcionan siendo distintos es la
+forma en que se declaran y utilizan las funciones en javascript
